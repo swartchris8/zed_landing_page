@@ -59,9 +59,9 @@ nav a:hover {
 }
 
 #hero .cta {
-    margin-top: 30px;
+    margin-top: 50px;
     padding: 15px 40px;
-    background-color: #ff6f61;
+    background-color: #ff69b4;
     color: white;
     text-decoration: none;
     border-radius: 25px;
@@ -71,7 +71,7 @@ nav a:hover {
 }
 
 #hero .cta:hover {
-    background-color: #ff4f41;
+    background-color: #ff3f81;
     transform: translateY(-3px);
 }
 
