@@ -1,0 +1,51 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header styles */
+header {
+    background-color: #4caf50;
+    padding: 10px 0;
+    color: white;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Hero Section */
+#hero {
+    padding: 15px;
+    background-color: #f4f4f4;
+}
+
+/* Features and Testimonials Sections */
+section {
+    padding: 15px;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    padding: 10px 0;
+}
+
+/* Mobile Styles */
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 5px 0;
+    }
+
+    #hero h2,
+    #hero p {
+        font-size: 90%;
+    }
+}
